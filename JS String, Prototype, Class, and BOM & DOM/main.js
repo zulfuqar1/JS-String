@@ -6,7 +6,7 @@
 //}
 //  console.log( string_to_array("Robin Singh"));
 
-
+//(2)
 //function truncate_string(str, num_chars) 
 //{
 //    var extracted_string = str.slice(0, num_chars);
@@ -16,7 +16,7 @@
 
 
 
-
+//(3)
 //function protect_email(email) 
 //{
 //    var part = email.split("@");
@@ -25,3 +25,27 @@
 //    return hidden_email;
 //}
 //console.log(protect_email("zulfuqareliyev520@gmail.com"));
+
+
+//(4)
+//function count_occurrences(str, word)
+//{
+//    var count = 0;
+//    var pos = str.indexOf(word);
+//
+//    while (pos !== -1) {
+//      count++;
+//      pos = str.indexOf(word, pos + 1);
+//    }
+//    
+//    if (count === 0)
+//    {
+//      console.log("'" + word + "' not found.");
+//    } 
+//
+//    else
+//    {
+//      console.log("'" + word + "' was found " + count + " times.");
+//    }
+//  }
+//count_occurrences("The quick brown fox", "fox");
